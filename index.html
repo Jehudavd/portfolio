@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="landing-page">
+        <h1 class="welcome-text">Hello, <span></span></h1>
+        <!-- Photo by <a href="https://unsplash.com/@rgaleriacom?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ricardo Gomez Angel</a> on <a href="https://unsplash.com/photos/mans-face-carved-on-black-surface-0AnQmPN-MPM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+    </div>
+    <ul class="nav">
+        <li class="nav-icon desktop"><img src="assets/pp.png" alt="avatar.jpg"></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#portofolio">My Portfolio</a></li>
+        <li><a href="#contact-us">Contact Me</a></li>
+    </ul>
+    <div id="about-me">
+        <div class="section-introduction">
+            <img src="./assets/pp.png" alt="avatar.jpg" class="img-icon">
+            <p class="content-perkenalan">Hi👋 I'm <b>Jehuda Wuwungan</b>, a web developer who focuses on building modern and responsive websites</p>
+        </div>
+        <div class="section-education">
+            <img src="./assets/coding.png" alt="avatar.jpg" class="img-icon">
+            <p class="content-perkenalan">I took a number of specialized courses and certifications in responsive web development</p>
+        </div>
+        <div class="section-working">
+            <img src="./assets/html.png" alt="avatar.jpg" class="img-icon">
+            <p class="content-perkenalan">I have mastered how to create a website using <b>HTML, CSS and JavaScript</b>, I can also use modern frameworks like <b>Bootstrap</b>, besides that I also have experience with <b>React and Vue</b>.</p>
+        </div>
+    </div>
+    <div id="portofolio">
+        <h1 class="title-portofolio">My Portofolio</h1>
+        <div class="container">
+            <a href="https://github.com/Jehudavd/my-notes"><img src="./assets/mynotesapp.jpg" alt="project.jpg" class="img-portfolio"></a>
+            <a href="https://github.com/Jehudavd/ecommerce-catalog"><img src="./assets/ecommerce.jpg" alt="project.jpg" class="img-portfolio"></a>
+            <a href="https://github.com/Jehudavd/kuis-gesit-17agustus"><img src="./assets/kuisgesit.jpg" alt="project.jpg" class="img-portfolio"></a>
+            <a href="https://github.com/ruangngoding/landing"><img src="./assets/ruangngoding.jpg" alt="project.jpg" class="img-portfolio"></a>
+        </div>
+    </div>
+    <hr>
+    <div id="contact-us">
+        <h1 class="title-contact-us">Kontak saya</h1>
+        <form action="" class="form-contact-us">
+            <div class="inputan">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama">
+            </div>
+            <div class="inputan">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div class="inputan">
+                <label for="pesan">Pesan</label>
+                <textarea name="" id="" cols="30" rows="10" id="pesan"></textarea>
+            </div>
+            <button type="submit" class="btn-kirim" disabled>Kirim</button>
+        </form>
+        <div class="contact-info">
+            <h3 class="non-desktop">
+                Ketuk salah satu untuk mendapat info
+            </h3>
+            <div>
+                <a href="tel:0823-6233-6446" class="contact-icon-bundler">
+                    <img src="./assets/phone.png" alt="phone.png" class="contact-icon">
+                    <span class="contact-desktop">082362336446</span>
+                </a>
+            </div>
+            <div>
+                <a href="mailto:jehudavd@gmail.com" class="contact-icon-bundler">
+                    <img src="./assets/mail.png" alt="mail.png" class="contact-icon">
+                    <span class="contact-desktop">jehudavd@gmail.com</span>
+                </a>
+            </div>
+            <div>
+                <a href="https://id.linkedin.com/in/jehuda-wuwungan"  class="contact-icon-bundler">
+                    <img src="./assets/linkedin.png" alt="in.png" class="contact-icon">
+                    <span class="contact-desktop">Jehuda Wuwungan</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+       Copyright &#169; 2023 Jehuda Wuwungan
+    </footer>
+</body>
+</html>
