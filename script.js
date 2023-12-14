@@ -30,3 +30,19 @@ const typeEffect = () => {
 }
 
 typeEffect();
+
+var nav = document.querySelector('.nav');
+var navOffsetTop = nav.offsetTop;
+
+function handleScroll() {
+    if (window.scrollY > navOffsetTop) {
+        nav.classList.add('scrolled');
+    } else {
+        nav.classList.remove('scrolled');
+    }
+}
+
+window.addEventListener('scroll', handleScroll);
+
+// Initial check on page load
+handleScroll();
